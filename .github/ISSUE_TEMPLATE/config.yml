@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Soporte de cuenta o pagos
+    url: mailto:soporte@xlimoncito.com
+    about: Problemas de cuenta, cobros o acceso. No los publiques en un issue.
+  - name: Reporte de seguridad
+    url: mailto:soporte@xlimoncito.com
+    about: Vulnerabilidades. Escribinos por mail y seguí SECURITY.md.
+  - name: Preguntas frecuentes
+    url: https://xlimoncito.com/faq
+    about: Respuestas sobre la plataforma, packs y suscripciones.

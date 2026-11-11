@@ -1,0 +1,44 @@
+name: Error en el sitio
+description: Algo de xlimoncito.com se ve o se comporta mal. Sin datos de cuenta ni de pago.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Si el problema es un cobro, un acceso o tu cuenta, escribinos a soporte@xlimoncito.com.
+        No pegues mails, alias, tokens ni capturas con datos de otra persona.
+  - type: checkboxes
+    id: canal
+    attributes:
+      label: Confirmación
+      options:
+        - label: Esto no es un problema de cuenta, de un pago ni de seguridad.
+          required: true
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: Qué pasó
+      description: Qué esperabas y qué viste.
+      placeholder: Abrí mi perfil en el celular y el botón de limoncito no responde.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos
+      description: Cómo llegar a ese estado, sin datos personales.
+      placeholder: |
+        1. Abrís xlimoncito.com/ejemplo
+        2. Tocás Limoncito
+        3. No pasa nada
+    validations:
+      required: true
+  - type: input
+    id: entorno
+    attributes:
+      label: Dónde
+      description: Navegador o celular, si lo sabés.
+      placeholder: Chrome en Android
+    validations:
+      required: false

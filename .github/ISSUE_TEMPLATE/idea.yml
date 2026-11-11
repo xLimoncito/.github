@@ -1,0 +1,33 @@
+name: Idea o mejora
+description: Una idea de producto, o una corrección de la documentación y la marca de esta organización.
+title: "[idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contá la idea sin datos de cuentas, pagos ni de otras personas.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Área
+      options:
+        - Producto (xlimoncito.com)
+        - Documentación de la organización
+        - Marca
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Qué problema viste y qué te gustaría que cambie.
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Para quién sería útil, si ya lo pensaste.
+    validations:
+      required: false

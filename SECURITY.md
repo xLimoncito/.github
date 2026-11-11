@@ -1,41 +1,40 @@
-# Security Policy
+# Política de seguridad
 
-## Reporting a Vulnerability
+## Cómo reportar una vulnerabilidad
 
-If you discover a security issue in Limoncito (authentication, payments, access to paid content, data exposure, etc.), please **do not** open a public GitHub issue.
+Si encontrás un problema de seguridad en Limoncito (autenticación, pagos, acceso a contenido pago, exposición de datos u otro fallo parecido), no abras un issue público.
 
-Email us at: **soporte@xlimoncito.com**
+Escribinos a **soporte@xlimoncito.com**.
 
-Include:
+Incluí:
 
-- A clear description of the issue
-- Steps to reproduce (or a proof-of-concept if safe)
-- Impact assessment (who could be affected)
-- Your contact details for follow-up
+- Una descripción clara del problema
+- Pasos para reproducirlo, o una prueba de concepto si es seguro compartirla
+- A quién podría afectar
+- Un contacto para el seguimiento
 
-We aim to acknowledge reports within **48 business hours**.
+Buscamos confirmar la recepción dentro de **48 horas hábiles**.
 
-## Scope
+## Alcance
 
-In scope (examples):
+Entra, por ejemplo:
 
-- Unauthorized access to accounts or paid content
-- Payment / webhook abuse that could steal funds or grant free access
-- XSS, CSRF, SSRF, injection against xlimoncito.com
-- Exposure of secrets or personal data
+- Acceso no autorizado a cuentas o a contenido pago
+- Abuso de pagos o webhooks que permita robar fondos o habilitar acceso gratis
+- XSS, CSRF, SSRF o inyección contra xlimoncito.com
+- Exposición de secretos o de datos personales
 
-Out of scope (examples):
+Queda afuera, por ejemplo:
 
-- Social engineering against users
-- Denial of service / volumetric attacks
-- Issues only present with outdated browsers or already-disclosed CVEs in dependencies without a working exploit on our stack
+- Ingeniería social contra usuarios
+- Denegación de servicio o ataques volumétricos
+- Fallos que solo aparecen en navegadores viejos, o CVEs ya públicos en dependencias sin un exploit que funcione sobre nuestro stack
 
-## Safe Harbor
+## Puerto seguro
 
-We will not pursue legal action against researchers who:
+No vamos a iniciar acciones legales contra quien investigue de buena fe y:
 
-- Act in good faith
-- Avoid privacy violations, data destruction, and service disruption
-- Give us a reasonable time to fix before public disclosure
+- Evite violar la privacidad, destruir datos o interrumpir el servicio
+- Nos dé un tiempo razonable para corregir antes de publicar el hallazgo
 
-Thank you for helping keep Limoncito safe.
+Gracias por ayudar a cuidar Limoncito.
