@@ -15,6 +15,7 @@
   <a href="https://xlimoncito.com/nosotros">Nosotros</a> ·
   <a href="https://xlimoncito.com/faq">FAQ</a> ·
   <a href="https://xlimoncito.com/status">Estado</a> ·
+  <a href="https://instagram.com/xlimoncito">Instagram</a> ·
   <a href="mailto:hola@xlimoncito.com">Contacto</a>
 </p>
 
@@ -34,7 +35,7 @@ Los cobros los procesan Mercado Pago y Amplify. Limoncito no almacena números d
 - Suscripciones por un período, con renovación manual
 - Cupones, broadcast, Discord, lives, sorteos y notificaciones web
 
-Después: cobro recurrente con Mercado Pago y automatizaciones (webhooks y roles de Discord). El detalle está en [Sobre nosotros](https://xlimoncito.com/nosotros).
+Lo que sigue, y el detalle de cada fila, está en la [hoja de ruta](../ROADMAP.md). Cada salida a producción se anota en el [changelog](../CHANGELOG.md).
 
 ## Repositorios
 

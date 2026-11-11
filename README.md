@@ -7,6 +7,8 @@ Producto: [xlimoncito.com](https://xlimoncito.com)
 | Archivo | Para qué |
 |---|---|
 | `profile/README.md` | Página de la organización en GitHub |
+| `ROADMAP.md` | Qué está en producción y qué sigue |
+| `CHANGELOG.md` | Cambios que ya salieron, con fecha |
 | `CODE_OF_CONDUCT.md` | Normas de participación |
 | `CONTRIBUTING.md` | Cómo proponer cambios |
 | `SECURITY.md` | Cómo reportar vulnerabilidades |
